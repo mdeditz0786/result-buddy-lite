@@ -7,10 +7,10 @@ import { Search, ExternalLink, AlertCircle } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "AISECT Result Viewer" },
-      { name: "description", content: "View your AISECT exam results quickly and easily." },
-      { property: "og:title", content: "AISECT Result Viewer" },
-      { property: "og:description", content: "View your AISECT exam results quickly and easily." },
+      { title: "Shiksha Infotech Ambikapur Result Viewer" },
+      { name: "description", content: "View your Shiksha Infotech Ambikapur exam results quickly and easily." },
+      { property: "og:title", content: "Shiksha Infotech Ambikapur Result Viewer" },
+      { property: "og:description", content: "View your Shiksha Infotech Ambikapur exam results quickly and easily." },
     ],
   }),
   component: AisectResultViewer,
@@ -88,7 +88,7 @@ function AisectResultViewer() {
         {/* Header */}
         <div className="mb-6 text-center">
           <h1 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
-            AISECT Result Viewer
+            Shiksha Infotech Ambikapur Result Viewer
           </h1>
           <p className="mt-1 text-sm text-muted-foreground">
             Enter your registration number to view your result
@@ -154,7 +154,7 @@ function AisectResultViewer() {
               <iframe
                 ref={iframeRef}
                 src={resultUrl}
-                title="AISECT Result"
+                title="Shiksha Infotech Ambikapur Result"
                 className="h-[70vh] w-full border-0"
                 sandbox="allow-scripts allow-same-origin allow-forms"
               />
